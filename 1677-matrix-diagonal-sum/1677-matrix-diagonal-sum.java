@@ -9,14 +9,13 @@ class Solution {
             return 0;
         }
         else{
-       for(int i=0;i<len;i++){
-        for(int j=0;j<len;j++){
-            if(i==j || i+j==len-1){
-                sum = sum + mat[i][j];
+            for(int i=0;i<len;i++){
+                sum = sum + mat[i][len-i-1] + mat[i][i];
             }
         }
-       }
-       return sum;
+        if((len%2)!=0){
+            sum = sum - mat[len/2][len/2];
         }
+        return sum;
     }
 }
