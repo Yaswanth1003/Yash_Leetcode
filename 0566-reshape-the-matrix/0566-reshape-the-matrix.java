@@ -8,15 +8,13 @@ class Solution {
         if((row*col)!=(r*c)){
             return mat;
         }
-        else{
-            for(int i=0;i<row;i++){
+        for(int i=0;i<row;i++){
                 for(int j=0;j<col;j++){
                     new_arr[n][m] = mat[i][j];
                     m++;
                     if(m==c){
                         m=0;
                         n++;
-                }
                 }
             }
         }
