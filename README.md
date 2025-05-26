@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Yaswanth1003/Yash_Leetcode/tree/master/0050-powx-n) |
 | [1378-cells-with-odd-values-in-a-matrix](https://github.com/Yaswanth1003/Yash_Leetcode/tree/master/1378-cells-with-odd-values-in-a-matrix) |
 ## Simulation
 |  |
@@ -83,4 +84,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0861-flipping-an-image](https://github.com/Yaswanth1003/Yash_Leetcode/tree/master/0861-flipping-an-image) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Yaswanth1003/Yash_Leetcode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
