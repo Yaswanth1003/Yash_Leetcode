@@ -7,7 +7,7 @@ class Solution {
             if (square == num) {
                 return true;
             } else if (square > num) {
-                return false;
+                break;
             }
         }
 
