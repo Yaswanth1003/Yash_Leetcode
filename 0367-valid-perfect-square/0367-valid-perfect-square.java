@@ -2,15 +2,20 @@ class Solution {
     public boolean isPerfectSquare(int num) {
         if (num < 2) return true;
 
-        for (int i = 2; i <= num / i; i++) {
-            int square = i * i;
-            if (square == num) {
+        long low = 1, high = num;
+        while(low <= high){
+            long mid = low + (high - low) / 2;
+            long square = mid * mid;
+            if(square == num){
                 return true;
-            } else if (square > num) {
-                break;
+            }
+            else if(square < num){
+                low = mid + 1;
+            }
+            else{
+                high = mid - 1;
             }
         }
-
         return false;
     }
 }
